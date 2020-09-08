@@ -1,0 +1,72 @@
+.marron-color {
+  background-color: rgb(128,0,0);
+
+}
+.jumbotron {
+  background: url("img/pic.jpg");
+  background-size:cover;
+  height:650px;
+  padding-top: 12%;
+}
+.jumbotron h1 {
+  color:orange;
+  font-size:72px;
+}
+.jumbotron p {
+  color:yellow;
+}
+.my-4 {
+  color:yellow;
+}
+.login-btn {
+  background-color: rgba(0,0,0,0.3);
+  color:black:
+}
+.jumbotron hr {
+  width:30%;
+}
+#features {
+  background-color:rgb(102,124,142);
+}
+.blue-bg {
+  background-color: rgb(70,199,224);
+  color: white;
+}
+.green-bg {
+  background-color: rgb(123,209,191);
+  color: white;
+}
+.red-bg {
+  background-color: rgb(225,75,108);
+  color: white;
+}
+.blue-bga {
+  background-color: rgba(70,199,224,0.7);
+  color: white;
+
+}
+.green-bga {
+  background-color: rgba(123,209,191,0.7);
+  color: white;
+}
+.red-bga {
+  background-color: rgba(225,75,108,0.7);
+  color: white;
+}
+.price-size {
+  font-size: 1.2em;
+}
+footer {
+background-color: black;
+color : white;
+}
+footer h5 {
+  font-size: 1em;
+}
+footer li {
+  font-size: 0.8em;
+}
+footer i {
+  font-size: 1.5em;
+  margin-right: 10%;
+}

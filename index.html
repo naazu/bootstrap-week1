@@ -1,114 +1,206 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <title>Hello, world!</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark marron-color">
     <div class="container">
-    <h1>Hello, world!</h1>
-    <h2>Title 2 <small>This is subtitle 2</small></h2>
-    <h3>Title 3 <small>This is subtitle 3</small></h3>
-    <h4>Title 4 <small>This is subtitle 4</small></h4>
-    <h5>Title 5 <small>This is subtitle 5</small></h5>
-    <h6>Title 6 <small>This is subtitle 6</small></h6>
-
-    <p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in <em>reprehenderit</em> in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco <mark> laboris nisi </mark> ut aliquip ex ea commodo
-    consequat. Duis aute <del> irure dolor in reprehenderit </del> in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    <h2>My List</h2>
-    <ol>
-      <li>This is item 1 </li>
-      <li>This is item 2</li>
-      <li>This is item 3</li>
-    </ol>
-
-    <ul>
-      <li>This is item 1</li>
-      <li>This is item 2</li>
-      <li> This is item 3 </li>
+  <a class="navbar-brand" href="#">Website</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#aboutus">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#features">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Prices">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
     </ul>
-
-    <ul class="list-unstyled">
-      <li>This is item 1</li>
-      <li>This is item 2</li>
-      <li> This is item 3 </li>
-    </ul>
-
-    <ul class="list-inline">
-      <li class="list-inline-item">This is item 1</li>
-      <li class="list-inline-item">This is item 2</li>
-      <li class="list-inline-item"> This is item 3 </li>
-    </ul>
-
-    <h2>Text alignment</h2>
-    <p class="text-left">This is lline 1</p>
-    <p class="text-right">This is line 2</p>
-    <p class="text-center">This is line 3</p>
-    <p class="txt-justify">This is line 4</p>
-      
-     <p>To restart you do <kbd>ctrl</kbd> + <kbd> alt </kbd> + <kbd> del </kbd></p> 
-
-     <p> Let's have a <code>&lt;br/&gt;</code></p>
-
-     <h2>Color in Bootstrap</h2>
-     <p class="text-muted">This is color 1 </p>
-     <p class="text-primary"> This is color 2</p>
-     <p class="text-secondary"> This is color 3</p>
-     <p class="text-danger"> This is color 4</p>
-     <p class="text-success"> This is color 5</p>
-     <p class="text-info"> This is color 6</p>
-
-     <hr>
-
-     <p class="bg-muted">This is color 1 </p>
-     <p class="bg-primary"> This is color 2</p>
-     <p class="bg-secondary"> This is color 3</p>
-     <p class="bg-danger"> This is color 4</p>
-     <p class="bg-success"> This is color 5</p>
-     <p class="bg-info"> This is color 6</p>
-
-     <button class="btn btn-primary">Click me!</button>
-     <button class="btn btn-secondary">Click me!</button>
-     <button class="btn btn-danger">Click me!</button>
-     <button class="btn btn-success">Click me!</button>
-     <button class="btn btn-info">Click me!</button>
-
-     <br>
-     <button class="btn btn-primary btn-lg">Click me!</button>
-     <br>
-     <button class="btn btn-primary">Click me!</button>
-     <br>
-     <button class="btn btn-primary btn-block">Click me!</button>
-
-     <br>
-     <button class="btn btn-primary btn-lg active">Click me!</button>
-     <button class="btn btn-primary btn-lg disabled">Click me!</button>
-     <button class="btn btn-primary btn-lg normal">Click me!</button>
-
+  </div>
+</div>
+</nav>
+  <div class="jumbotron text-center">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <hr class="my-4">
+  <a class="btn login-btn btn-lg" href="#" role="button">Sign Up</a>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Login</a>
+</div>
+<section id = "aboutus">
+  <div class="container">
+  <h2 class="">About Us</h2>
+  <div class="row">
+    <div class="col-7 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </div>
+    <div class="col-5">
+      <img class="image-fluid" src="img/mock_ipad.jpg">
+    </div>
+    <div class="row">
+      <div class="col-7 text-justify">
+        <img class="image-fluid" src="img/mock_ipad.jpg">
+      </div>
+      <div class="col-5 text-justify">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section class="text-center py-5 my-3" id="features">
+  <div class="container">
+    <br>
+    <br>
+  <h2>Features</h2>
+  <p>Features headline message</h2>
+    <div class="row">
+    <div class="col-4">Features</div>
+    <div class="col-4">Features</div>
+    <div class="col-4">Features</div>
+  </div>
+  <br>
+  <br>
+  <div class="row">
+  <div class="col-4">Features</div>
+  <div class="col-4">Features</div>
+  <div class="col-4">Features</div>
+</div>
+<br>
+<br>
+</section>
+<br>
+<br>
+<section id="Prices">
+  <div class="container">
+  <h2 class="text-center">Our Price</h2>
+  <p class="text-center">Our pricing is among the most competitive in the market</p>
+  <table class="table text-center">
+    <thead>
+      <tr>
+        <th class="blue-bg">Free Plan </th>
+        <th class="green-bg">Standard Plan</th>
+        <th class="red-bg">Premier Plan</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="price-size">
+        <td class="blue-bga">RM 0</td>
+        <td class="green-bga">Rm 99</td>
+        <td class="red-bga">RM 999</td>
+      </tr>
+      <tr>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+      </tr>
+      <tr>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+      </tr>
+      <tr>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+      </tr>
+      <tr>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+      </tr>
+      <tr>
+        <td><button class=" blue-bg btn  btn-block">Subcribe Now</button></td>
+        <td><button class=" green-bg btn  btn-block">Subcribe Now</button></td>
+        <td><button class=" red-bg btn  btn-block">Subcribe Now</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</section>
+<br>
+<br>
+<section id="contact">
+  <div class="container text center py-5 my-3">
+  <h2 class="text-center">Contact Us</h2>
+  <p class="text-center">Contact us and we will get to you</p>
+  <form class="form-inline justify-content-center">
+  <label class="sr-only" for="inlineFormInputName2">Name</label>
+  <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="John">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-  </body>
+  <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">@</div>
+    </div>
+    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+</form>
+</section>
+<br/>
+<br/>
+<footer class="my-3 py-5">
+  <div class="row">
+    <div class="col-2">
+      <img class="img-fluid" src=img/logo.png >
+    </div>
+    <div class="col-3">
+      <h5>The Company</h5>
+      <ul class="list-unstyled">
+      <li>Item 1</li>
+      <li>Item 1</li>
+      <li>Item 1</li>
+      </ul>
+    </div>
+    <div class="col-2">
+      <h5>The Company</h5>
+      <ul class="list-unstyled">
+      <li>Item 1</li>
+      <li>Item 1</li>
+      <li>Item 1</li>
+      </ul>
+    </div>
+    <div class="col-2">
+      <h5>The Company</h5>
+      <ul class="list-unstyled">
+      <li>Item 1</li>
+      <li>Item 1</li>
+      <li>Item 1</li>
+      </ul>
+    </div>
+    <div class="col-3">
+      <h5>Social</h5>
+      <ul class="list-unstyled">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i
+      </ul>
+    </div>
+</footer>
+</body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </html>
